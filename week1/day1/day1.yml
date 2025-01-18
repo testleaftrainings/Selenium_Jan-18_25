@@ -1,0 +1,203 @@
+Today's Agenda:
+---------------
+09:00 to 09:30 ---> ED-Tech Introduction
+09:30 to 10:15 ---> Core Java Introduction 
+10:15 to 10:35 ---> Breakout+Break
+10:35 to 11:10 ---> Data types and Variables
+11:10 to 11:30 ---> Breakout
+11:30 to 12:10 ---> Operators,if-condition
+12:10 to 12:20 --->Recap
+
+ava Introduction:
+
+What is Java?
+
+Java is a computer programming language. Java is a versatile and widely-used programming language. It allows developers to write code that can run on different types of devices, from computers to mobile phones. Java is strong and reliable. Robustness in Java refers to its ability to handle errors and unexpected situations gracefully. It includes features like strong memory management. Java uses a way of organizing code based on objects. Object-oriented programming is a programming principle that organizes code into objects, which are instances of classes. This approach promotes code reuse, modularity, and easier maintenance.
+
+Why Java?
+
+Java is known for being flexible. Java's adaptability means that it can be used in various scenarios. Whether you're building a small application or a large-scale system, Java provides the flexibility to adapt to different requirements and environments. Java works on different types of devices. Being ''platform-independent'' means that Java code can run on various devices, such as computers, smartphones, and other gadgets. This is possible because Java programs are compiled into an intermediate form (bytecode), which can be executed on any device with a Java Virtual Machine (JVM). Java is versatile and excels in a wide range of applications. It is commonly used in web development, mobile app development (Android), enterprise systems, scientific applications, and more. Its broad applicability makes it a popular choice for developers working on diverse projects.
+
+Java Architecture:
+
+JDK (Java Development Kit):
+
+JDK is like a toolkit for Java developers. The JDK includes everything a developer needs to write, compile, and run Java applications. It contains the Java compiler, libraries, and other tools to help create software. If you want to build Java applications, you need the JDK.
+
+JRE (Java Runtime Environment):
+
+JRE is like a package to run Java programs. The JRE is necessary for running Java applications. It includes the Java Virtual Machine (JVM) and essential libraries. If you only want to run Java programs and not develop them, you just need the JRE. It allows your computer to execute Java applications.
+
+JVM (Java Virtual Machine):
+
+JVM is like a virtual computer for Java. The JVM is a virtualized environment that runs Java bytecode. When you compile your Java code, it turns into bytecode, a set of instructions for the JVM. The JVM, in turn, translates these instructions into machine code that your computer understands. It makes Java programs "write once, run anywhere" by enabling them to run on any device with a compatible JVM.
+
+IDE: Definition: An IDE, or Integrated Development Environment, is like a digital workspace where programmers write, edit, and manage their code. It provides tools such as a code editor, debugger, and compiler, all in one place, making it easier for developers to create and maintain their software.
+
+Package: Definition: In Java, a package is a way to organize and group related classes and interfaces. It helps in avoiding naming conflicts and enhances the overall structure of a program.
+
+Class: Definition: In Java, a class is a blueprint or template that defines the properties (attributes) and behaviors (methods) that objects created from the class will have.
+
+Variables: Definition: Variables in Java are like containers that store data. They have a type (int, double, String) and a name. Use variables to store and manipulate data.
+
+Datatypes: Definition: Datatypes specify the type of data a variable can hold.
+
+
+To Create New Project :
+===================
+Step 1 -  MouseHover on File & Click File
+Step 2 - MouseHover on New --> Click Project.
+Step 3 -  under Maven folder --> Click Maven Project & click Next Button.
+Step 4 - click 'create a simple project' checkbox✅ & click Next Button.
+Step 5 - Enter 'Group id' & 'Artifact id' and click Finish Button
+
+To Create Package :
+================
+Step 1 - Right Click on src/main/Java --> New --> click package
+Step 2 - Enter week1.day1 (Name start's with lowerCase) in Name field  and click Finish Button.
+
+ 
+ To Create Class :
+================
+Step 1 - Right Click on week1.day1 package --> New --> click Class
+Step 2 - Enter HelloTestLeaf  (Name start's with UpperCase) in Name field.  
+Step 3 - click 'public static void main(String[] args)' checkbox ✅
+Step 4 - Then, click Finish Button.
+
+********************************************************************************************************************************************
+  @Package:
+  Packages help in organizing large codebases, improving code readability, and 
+   better maintenance and collaboration.
+
+   *NamingConvertion: package name should start with "lowercase"
+   Ex: week1
+
+ @Class:
+    A class is a blueprint or template for creating objects in object-oriented programming (OOP). 
+    It defines the data (variable) and behaviors (methods) that objects of the class will have.
+
+   *NamingConvertion: package name should start with "uppercase" and "PaselCase"
+   Ex: Browser,BrowserType
+   @Variables:
+   A variable is a named storage location in a computer's memory that holds a value. 
+   In programming, variables are used to store and manipulate data.
+
+   *NamingConvertion: package name should start with "lowercase" and CamalCase
+   Ex:classRoom
+
+
+  @DataTypes:
+   In programming, a data type is a classification that specifies which type of value a variable can hold.
+   It defines the operations that can be done on the data, the meaning of the data,
+   and the way values of that type can be stored 
+
+
+   
+Operators:
+operators are special symbols that perform specific operations
+ 
+1.Arithmetic operators:
+These operators are used to perform mathematical operations
+such as addition, subtraction, multiplication,and division.
++ (addition) 2+3=5
+- (subtraction)5-4=1
+* (multiplication)5*2=10
+/ (division)-Que 10/5=2
+% (modulus or remainder)10%5=0
+
+2.Assignment operators:
+These operators are used to assign values to variables. 
+= (assignment) a=5 ,comName="TestLeaf"
+
+age=23;
+
++= (add and assign) ag=23
+ag+=6 => ag=ag+6=>23+6=29
+ 
+ ag=29
+
+ int a=20
+-= (subtract and assign) a-=5=> a=a-5 +> a=20-5=15
+*= (multiply and assign)
+/= (divide and assign)
+%= (modulus and assign)
+
+
+
+3.Comparison operators:
+These operators are used to compare two value
+and return a boolean value (true or false). 
+== (equal to) 5==5=>true
+!= (not equal to)5!=8 =>true
+> (greater than) 6>5 =>true
+< (less than) 6<5 =>false
+>= (greater than or equal to) 6>=7 - false
+<= (less than or equal to)
+
+
+
+
+
+4.Logical operators:
+These operators are used to combine two or more boolean expressions
+and return a boolean value.   &&-->AND * 
+&& (logical and)  both condition should passed
+1-true
+0-false
+
+AND----->&&
+1*0=0     T F F
+0*1=0     F T F
+0*0=0     F F F
+1*1=1     T T T
+
+int a=5;
+int b=2
+
+(a<b)&&(a>b)
+
+false && true =>false
+
+
+
+|| (logical or) any one condition can pass
+
+
+addition
+OR------>||
+1+0=1    T F T
+0+1=1    F T T
+1+1=1    T T T
+0+0=0    F F F
+
+
+int a=20
+int b=25
+
+(a>b)||(a!=b)
+
+false || true => true
+
+
+
+
+! (logical not or negation)
+1---0   T F
+
+0---1   F  T
+
+
+5. unary operator
+Increment operator (i++) i=0 ,i=0+1 => i=1
+Decrement operator (i--) i=5, i=5-1 => i=4
+
+Increment : post inc & pre inc(++i)
+Decrement : post dec & pre dec(--i)
+
+int i=1;
+post inc(i++) => i+1
+i+1=>1+1=2
+
+int i=3;
+post dec(i--) =>i-1 
+i-1=>3-1 =2
